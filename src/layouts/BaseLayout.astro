@@ -1,5 +1,5 @@
 ---
-import Menu from "@partials/components/Menu"
+import Menu from "@partials/components/Menu.tsx";
 import Footer from "@partials/components/Footer.astro";
 import FooterMenu from "@partials/components/FooterMenu.astro";
 import Seo from "@partials/components/Seo.astro";
@@ -44,14 +44,10 @@ const {
     <link rel="apple-touch-icon" sizes="180x180" href="/img/logo.svg" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- Preload des polices critiques -->
-    <link rel="preload" as="font" href="/font/Nexa-Bold.woff2" type="font/woff2" crossorigin />
-    <link rel="preload" as="font" href="/font/Nexa-Regular.woff2" type="font/woff2" crossorigin />
-
-    <!-- Roboto (import Google Fonts) -->
+    <!-- Fonts: Roboto + Montserrat (Google Fonts). Removed local Nexa preloads. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet" />
 
     <title>{title}</title>
     {description && <meta name="description" content={description} />}

@@ -1,48 +1,48 @@
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Thin.woff2") format("woff2"), url("/font/Nexa-Thin.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Thin.woff2") format("woff2"), url("/font/Montserrat-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Light.woff2") format("woff2"), url("/font/Nexa-Light.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Light.woff2") format("woff2"), url("/font/Montserrat-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Regular.woff2") format("woff2"), url("/font/Nexa-Regular.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Regular.woff2") format("woff2"), url("/font/Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Bold.woff2") format("woff2"), url("/font/Nexa-Bold.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Bold.woff2") format("woff2"), url("/font/Montserrat-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-XBold.woff2") format("woff2"), url("/font/Nexa-XBold.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-XBold.woff2") format("woff2"), url("/font/Montserrat-XBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Black.woff2") format("woff2"), url("/font/Nexa-Black.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Black.woff2") format("woff2"), url("/font/Montserrat-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: Nexa;
-  src: url("/font/Nexa-Heavy.woff2") format("woff2"), url("/font/Nexa-Heavy.woff") format("woff");
+  font-family:Montserrat;
+  src: url("/font/Montserrat-Heavy.woff2") format("woff2"), url("/font/Montserrat-Heavy.woff") format("woff");
   font-weight: 950;
   font-style: normal;
   font-display: swap;
@@ -80,14 +80,14 @@
 }
 .testimonial-new__subtitle {
   color: #F0A;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .testimonial-new__description {
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   color: #2F2F2F;
   margin-bottom: 2rem;
 }
@@ -116,7 +116,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 0;
 }
 .testimonial-new__meta {
@@ -128,7 +128,7 @@
 .testimonial-new__quote p {
   color: white;
   font-size: 1rem;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   margin-bottom: 0.7rem;
 }
 .testimonial-new__quote p:last-child {
@@ -482,7 +482,7 @@
   font-weight: 300;
   text-align: left;
   opacity: 0.5;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
 }
 .form__summary__textarea > p, .form__summary__inputs > p {
   width: 100%;
@@ -808,13 +808,13 @@
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .coaching-entreprise__improve__col1 .coaching-entreprise__benefits > li strong {
   color: #2F2F2F;
   font-weight: 800;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .coaching-entreprise__improve__col1 .coaching-entreprise__availability {
   border-radius: 5px;
@@ -847,7 +847,7 @@
 }
 .coaching-entreprise__improve__col1 .coaching-entreprise__independent h3 {
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .coaching-entreprise__improve__col1 .coaching-entreprise__independent p {
   margin: 0;
@@ -858,12 +858,12 @@
   align-items: flex-end;
 }
 .coaching-entreprise__improve__col2 .coaching-entreprise__context > p strong {
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   text-transform: uppercase;
 }
 .coaching-entreprise__improve__col2 .coaching-entreprise__context > p strong .highlight {
   color: #F0A;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-style: italic;
   text-transform: none;
 }
@@ -946,7 +946,7 @@
   font-size: 24px;
   font-weight: 800;
   text-align: center;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .coaching__entrerpise__perfo__col1 {
   display: flex;
@@ -989,7 +989,7 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .coaching__entrerpise__perfo__col2 h3::before {
   position: absolute;
@@ -1100,7 +1100,7 @@
   color: #F0A;
   font-size: 1.2rem;
   text-transform: none;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-weight: 500;
 }
 .jeune__footballer__content {
@@ -1113,7 +1113,7 @@
   color: #2F2F2F;
   font-size: 1rem;
   font-weight: 800;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
@@ -1289,7 +1289,7 @@
   color: #F0A;
   font-size: 1.375rem;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 1.5rem;
 }
 .coaching__types__card__content {
@@ -1297,7 +1297,7 @@
   margin-bottom: 2rem;
 }
 .coaching__types__card__content h4 {
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -1643,7 +1643,7 @@
 }
 .video__gallery__card__head h2 {
   order: 2;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   font-size: 2.8rem;
   font-weight: 800;
   font-style: italic;
@@ -1652,7 +1652,7 @@
 }
 .video__gallery__card__head .video__gallery__reps {
   order: 1;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 0;
@@ -1847,7 +1847,7 @@
   font-weight: 600;
   text-transform: uppercase;
   font-style: normal;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 2rem;
   z-index: 1;
 }
@@ -1903,7 +1903,7 @@
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 0;
 }
 .parcours__info p {
@@ -1912,7 +1912,7 @@
   font-size: 0.9rem;
   font-weight: 400;
   opacity: 0.9;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
 }
 .parcours__date {
   width: -moz-fit-content;
@@ -2091,7 +2091,7 @@ body[data-page="about"] .wrapper-982-black {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
 }
 .about__hero__role span:first-child {
   color: #F0A;
@@ -2105,7 +2105,7 @@ body[data-page="about"] .wrapper-982-black {
   opacity: 0.8;
 }
 .about__hero__name {
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   color: white;
   font-weight: 700;
 }
@@ -2427,7 +2427,7 @@ body[data-page="about"] .wrapper-982-black {
   color: #F0A;
   font-weight: 800;
   text-transform: none;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-style: italic;
 }
 .form__container .form__timeline {
@@ -2704,7 +2704,7 @@ body[data-page="about"] .wrapper-982-black {
   margin-bottom: 2rem;
 }
 .form__summary fieldset legend {
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
   opacity: 0.5;
@@ -2739,7 +2739,7 @@ body[data-page="about"] .wrapper-982-black {
   font-weight: 300;
   text-align: left;
   opacity: 0.5;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
 }
 .form__summary__textarea > p, .form__summary__inputs > p {
   width: 100%;
@@ -2883,7 +2883,7 @@ body[data-page="about"] .wrapper-982-black {
 }
 
 .testimonials__type {
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-size: 1rem;
   border-bottom: 1px solid rgba(47, 47, 47, 0.2);
   padding-bottom: 0.5rem;
@@ -2904,14 +2904,14 @@ body[data-page="about"] .wrapper-982-black {
 }
 .testimonial-new__subtitle {
   color: #F0A;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .testimonial-new__description {
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   color: #2F2F2F;
   margin-bottom: 2rem;
 }
@@ -2940,7 +2940,7 @@ body[data-page="about"] .wrapper-982-black {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "Nexa", "Roboto", sans-serif;
+  font-family: "Montserrat","Roboto", sans-serif;
   margin-bottom: 0;
 }
 .testimonial-new__meta {
@@ -2952,7 +2952,7 @@ body[data-page="about"] .wrapper-982-black {
 .testimonial-new__quote p {
   color: white;
   font-size: 1rem;
-  font-family: "Roboto", "Nexa", sans-serif;
+  font-family: "Roboto","Montserrat", sans-serif;
   margin-bottom: 0.7rem;
 }
 .testimonial-new__quote p:last-child {
